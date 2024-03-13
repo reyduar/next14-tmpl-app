@@ -3,5 +3,5 @@ export default function MainLayout({
 }: {
   children: React.ReactNode;
 }) {
-  return <main className="main-h-screen bg-blue-500">{children}</main>;
+  return <main className="main-h-screen">{children}</main>;
 }
